@@ -4,7 +4,7 @@
  > **Neste projeto estamos desenvolvendo, um programa no qual a partir de em uma entrada de texto, determinamos qual idioma está sendo utilizado.**
 
 ### Recursos utilizados para este programa
-Para este projeto utilizamos uma fonte de dados [Github Pages](https://pt.wikipedia.org/wiki/Frequ%C3%AAncia_de_letras), que tinha a frequência das letras de cada idioma, mas para o nosso programa só utilizamos o a língua portuguesa e a inglesa. 
+Para este projeto utilizamos uma fonte de dados [Link para a base de dados](https://pt.wikipedia.org/wiki/Frequ%C3%AAncia_de_letras), que tinha a frequência das letras de cada idioma, mas para o nosso programa só utilizamos a língua portuguesa e a inglesa. 
 
 ### Lógica do Programa
 Desenvolvemos uma função chamada detectar idioma, no qual divide a resolução do problema em 3 partes.
@@ -32,7 +32,7 @@ Nesta parte da função, com as frequências das letras dos dois idiomas armazen
 ```
 
 ### Comparação da frequência das letras
-A partir das informações extraídas do texto de quantas letras se repetem, agora fazemos a comparação das frequências das letras esperadas para cada idioma. E com a condição de que se a diferença de um idioma for menor que a outra será pontuado, para que ocorra em breve seja determinado qual é o idioma utilizado no texto.
+A partir das informações extraídas do texto de quantas letras se repetem, agora fazemos a comparação das frequências das letras esperadas para cada idioma. E com a condição de que se a diferença de um idioma for menor que a outra será pontuado, para que em breve seja determinado qual é o idioma utilizado no texto.
 
 ```c
     float dif_ptg = 0, dif_ing = 0;
@@ -60,4 +60,4 @@ Na parte final desta função, a condição para determinar qual idioma está se
 ```
 
 ### Alguns pontos a serem observados
-Nosso código não determina assertivamente ainda muitas entradas de texto inseridas. Qualquer ajuda de como melhorar nosso código será bem-vinda!!
+Nosso código não determina assertivamente ainda algumas entradas de texto inseridas. Qualquer ajuda de como melhorar nosso código será bem-vinda!!
