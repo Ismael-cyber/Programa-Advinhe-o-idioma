@@ -60,4 +60,8 @@ Na parte final desta função, a condição para determinar qual idioma está se
 ```
 
 ### Alguns pontos a serem observados
+>[!NOTE]
 Nosso código não determina assertivamente ainda algumas entradas de texto inseridas. Qualquer ajuda de como melhorar nosso código será bem-vinda!!
+
+### Participações
+Agradecer ao meu parceiro @BrunoAG, que contribuiu bastante para que este projeto e ter divido seus conhecimentos para a implementação deste programa.
